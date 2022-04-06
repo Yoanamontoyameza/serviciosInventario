@@ -20,8 +20,8 @@ public class AutosparepartApplication {
 		JavaMailSenderImpl mailSender = new JavaMailSenderImpl();
 		mailSender.setHost("smtp.gmail.com");
 		mailSender.setPort(587);
-		mailSender.setUsername("autosparepart542000@gmail.com");
-		mailSender.setPassword("Yoanameza1");
+		mailSender.setUsername("equiposparalaboratoriosdj@gmail.com");
+		mailSender.setPassword("Yoanameza1.");
 		Properties props = mailSender.getJavaMailProperties();
 		props.put("mail.transport.protocol", "smtp");
 		props.put("mail.smtp.auth", "true");
